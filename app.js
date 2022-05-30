@@ -5,6 +5,7 @@
 //Solution: Add interactivity so the user can manage daily tasks.
 //Break things down into smaller steps and take each step at a time.
 
+alert("Здравствуй, я не успел сделать задание и буду благодарен, если ты откроешь его в среду во второй половине дня. Спасибо за понимание")
 
 // Event handling, user interaction is what starts the code execution.
 
