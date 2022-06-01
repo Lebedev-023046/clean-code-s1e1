@@ -4,21 +4,21 @@ body {
   color: #333;
   font-family: Lato, sans-serif;
 }
-.aaa {
+.example {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
-.aaa img {
+.example img {
   width: 100%;
 }
-.aaa .more_inf {
+.example .more-inf {
   font-family: fantasy, cursive;
 }
 
 @media (max-width:768px) {
-  .aaa { 
+  .example { 
       text-align: center;
   }
 }
@@ -143,6 +143,6 @@ ul li.edit-mode input[type=text] {
   width:224px
 }
 
-ul li.editMode label {
+ul li.edit-mode label {
   display:none;
 }
