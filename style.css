@@ -49,11 +49,13 @@
   padding: 0px;
 }
 
-.list-item, h3 {
+.list-item,
+.todo {
   list-style: none;
 }
 
-.input,.btn{
+.input,
+.btn {
   outline: none;
 }
 
@@ -72,7 +74,7 @@
 }
 
 /* Heading */
-h3,
+.todo,
 .label[for="new-task"] {
   color: #333;
   font-weight: 700;
