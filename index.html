@@ -4,45 +4,45 @@
 <link rel="stylesheet" href="style.css" media="screen" charset="utf-8">
 </head>
 <body class="body">
-  <div class="example">
+  <section class="example">
     <img class="img" src="./eisenhower-matrix.jpg" alt="matrix">
     <a class="more-inf" href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?</a>
-  </div>
-  <div class="wrapper">
-    <p id="top-section-for-adding-element-to-list"><label class="label" for="new-task">Add Item</label>
-      <div class="task-row-wrapper">
+  </section>
+  <section class="wrapper">
+    <secton id="top-section-for-adding-element-to-list"><label class="label" for="new-task">Add Item</label>
+      <article class="task-row-wrapper">
         <input id="new-task" class="input task" type="text">
         <button class="btn">Add</button>
-      </div>
-    </p>
+      </article>
+    </secton>
     <h3 class="todo">Todo</h3>
-    <ul class="list" id="incomp-tasks">
-      <li class="list-item">
+    <section class="list" id="incomp-tasks">
+      <article class="list-item">
         <input class="input" type="checkbox">
         <label class="label task">Pay Bills</label>
         <input type="text" class="input task">
         <button class="btn edit">Edit</button>
         <button class="btn delete"><img class="img" src="./remove.svg" alt="remove-icon"></button>
-      </li >
-      <li class="list-item edit-mode">
+      </article >
+      <article class="list-item edit-mode">
         <input class="input" type="checkbox">
         <label class="label task">Go Shopping</label>
         <input type="text" value="Go Shopping" class="input task">
         <button class="btn edit">Save</button>
         <button class="btn delete"><img class="img" src="./remove.svg" alt="remove-icon"></button>
-      </li>
-    </ul>
-    <h3>Completed</h3>
-    <ul class="list" id="comp-tasks">
-      <li class="list-item">
+      </article>
+    </section>
+    <h3 class="todo">Completed</h3>
+    <section class="list" id="comp-tasks">
+      <article class="list-item">
         <input class="input" type="checkbox" checked>
         <label class="label task">See the Doctor</label>
         <input type="text" class="input task">
         <button class="btn edit">Edit</button>
         <button class="btn delete"><img class="img" src="./remove.svg" remove-icon></button>
-      </li>
-    </ul>
-  </div>
+      </article>
+    </section>
+  </section>
   <script src="app.js"></script>
 </body>
 <html>
