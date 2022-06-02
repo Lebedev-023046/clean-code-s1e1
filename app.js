@@ -7,17 +7,17 @@
 
 // Event handling, user interaction is what starts the code execution.
 
-var taskInput=document.getElementById("new-task");//Add a new task.
+var taskInput=document.getElementById("new__task");//Add a new task.
 var addButton=document.querySelectorAll(".btn")[0];//first button
-var incompleteTaskHolder=document.getElementById("incomp-tasks");//ul of #incompleteTasks
-var completedTasksHolder=document.getElementById("comp-tasks");//completed-tasks
+var incompleteTaskHolder=document.getElementById("incomp__tasks");//ul of #incompleteTasks
+var completedTasksHolder=document.getElementById("comp__tasks");//completed-tasks
 
 
 //New task list item
 var createNewTaskElement=function(taskString){
 
     var listItem=document.createElement("article");
-    listItem.classList.add('list-item')
+    listItem.classList.add('list__item')
 
     //input (checkbox)
     var checkBox=document.createElement("input");//checkbx
